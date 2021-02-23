@@ -1,0 +1,46 @@
+{
+    "name": "yipack-template",
+    "version": "1.0.0",
+    "description": "yipack 项目模板",
+    "main": "index.js",
+    "scripts": {
+        "dev": "yipack dev",
+        "build": "yipack build",
+        "eslint:fix": "eslint --fix"
+    },
+    "browserslist": [
+        "> 1%",
+        "ie > 8",
+        "last 2 versions",
+        "last 3 iOS versions"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "basil.js": "^0.4.11",
+        "element-ui": "^2.14.1",
+        "lodash-es": "^4.17.20",
+        "vue": "^2.6.12",
+        "vue-i18n": "^8.22.4",
+        "vue-router": "^3.4.8",
+        "vuex": "^3.5.1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,css,scss,less,ts,jsx,vue,html,json,md,yaml}": "prettier --write"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.17.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-vue": "^7.4.0",
+        "prettier": "^2.2.1",
+        "vue-eslint-parser": "^7.3.0"
+    }
+}

@@ -1,0 +1,7 @@
+// 默认浏览器差异抹平
+// 请不要动以下两个文件
+@import './reset.scss';
+@import './normalize.scss';
+
+// 全局样式，请不要将全局样式写到 App.vue 中！！！
+@import './global.scss';
